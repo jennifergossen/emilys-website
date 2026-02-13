@@ -1,0 +1,189 @@
+{
+  "site": {
+    "name": "Kleine Helden",
+    "slogan": "Wo kleine Helden groß werden",
+    "phone": "[Telefonnummer]",
+    "email": "[E-Mail-Adresse]",
+    "whatsapp": "491621946201",
+    "instagram": "https://instagram.com",
+    "instagramHandle": "@kleine.helden",
+    "location": "Bad Friedrichshall, Baden-Württemberg"
+  },
+  "hero": {
+    "title": "Wo kleine Helden <span class=\"text-terracotta\">groß werden</span>",
+    "subtitle": "Liebevolle Kinderbetreuung in Bad Friedrichshall und Umgebung – für Kinder von 6 Monaten bis 12 Jahren"
+  },
+  "features": [
+    {
+      "icon": "sparkles",
+      "title": "Bewegung & Entspannung",
+      "description": "Kinderyoga, innere Ruhe finden und die Konzentration stärken"
+    },
+    {
+      "icon": "palette",
+      "title": "Kreativität & Fantasie",
+      "description": "Basteln, Malen und der Fantasie freien Lauf lassen"
+    },
+    {
+      "icon": "heart",
+      "title": "Selbstbewusstsein & Gefühle",
+      "description": "Eigene Stärken entdecken und Gefühle verstehen lernen"
+    }
+  ],
+  "about": {
+    "name": "[Name]",
+    "shortIntro": "Mit über 7 Jahren Erfahrung in der Kinderbetreuung ist es meine Leidenschaft, Kinder auf ihrem Weg zu begleiten. In einer liebevollen, geborgenen Atmosphäre können kleine Helden ihre Stärken entdecken, kreativ werden und einfach Kind sein.",
+    "shortIntro2": "Ob Kinderyoga, kreative Bastelprojekte oder einfühlsames Coaching – bei mir steht jedes Kind mit seinen individuellen Bedürfnissen im Mittelpunkt.",
+    "fullIntro": [
+      "Seit über 7 Jahren begleite ich Kinder mit Herz und Leidenschaft auf ihrem ganz persönlichen Weg. Die Arbeit mit Kindern ist für mich nicht nur ein Beruf – es ist meine Berufung.",
+      "Ich betreue Kinder im Alter von 6 Monaten bis 12 Jahren, bei mir zuhause in Bad Friedrichshall oder direkt bei Ihnen zuhause im Umkreis von ca. 15 km. Dabei liegt mir besonders am Herzen, dass sich jedes Kind sicher, gesehen und wertgeschätzt fühlt.",
+      "Mein Ansatz ist ganzheitlich: Ich fördere Bewegung und Kreativität genauso wie emotionale Stärke und innere Ruhe. Durch Kinderyoga, kreative Projekte und einfühlsame Begleitung schaffe ich einen Raum, in dem Kinder wachsen und ihre Persönlichkeit entfalten können.",
+      "<strong>Ab 2027</strong> plane ich, als zertifizierte Tagesmutter zu arbeiten. Wenn Sie Interesse haben, nehmen Sie mich gerne schon jetzt auf die Warteliste."
+    ],
+    "schwerpunkte": [
+      {
+        "icon": "sparkles",
+        "title": "Bewegung & Kinderyoga",
+        "description": "Kinder brauchen Bewegung – nicht nur für den Körper, sondern auch für den Geist. Durch Kinderyoga und Bewegungsspiele lernen die Kinder, ihren Körper wahrzunehmen, zur Ruhe zu kommen und neue Energie zu tanken."
+      },
+      {
+        "icon": "palette",
+        "title": "Kreativität & Bastelprojekte",
+        "description": "Beim Malen, Basteln und kreativen Gestalten können Kinder ihre Ideen frei ausdrücken. Hier gibt es kein Richtig oder Falsch – nur die Freude am Erschaffen."
+      },
+      {
+        "icon": "cloud",
+        "title": "Fantasie & Entspannung",
+        "description": "Fantasiereisen und Entspannungsübungen helfen Kindern, innere Ruhe zu finden, ihre Konzentration zu verbessern und Ängste sowie innere Unruhe abzubauen. Ein sicherer Ort, an dem die Gedanken fliegen dürfen."
+      },
+      {
+        "icon": "heart",
+        "title": "Selbstbewusstsein stärken",
+        "description": "„Ich bin gut, so wie ich bin.\u201C – Kinder lernen, ihre eigenen Stärken zu erkennen, stolz auf sich zu sein und sich selbst zu vertrauen. Ein starkes Selbstbewusstsein ist das beste Fundament fürs Leben."
+      },
+      {
+        "icon": "smile",
+        "title": "Umgang mit Gefühlen",
+        "description": "Wut, Traurigkeit, Frust, Streit mit Freunden, große Veränderungen wie der Wechsel von der Kita in die Schule – all das gehört zum Großwerden dazu. Ich begleite Kinder dabei, ihre Gefühle zu benennen, zu verstehen und gesunde Wege zu finden, mit ihnen umzugehen."
+      },
+      {
+        "icon": "trending-up",
+        "title": "Entwicklungsförderung",
+        "description": "Jedes Kind entwickelt sich in seinem eigenen Tempo. Ich beobachte aufmerksam, wo ein Kind gerade steht, und biete gezielte Impulse, die seine Entwicklung auf spielerische Weise fördern."
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Unsere Tochter geht so gerne zu den Kleinen Helden. Sie ist viel selbstbewusster geworden und erzählt begeistert von den Yoga-Stunden.",
+      "author": "Familie M., Bad Friedrichshall"
+    },
+    {
+      "quote": "Endlich eine flexible Wochenendbetreuung! Wir fühlen uns rundum wohl und gut aufgehoben.",
+      "author": "Familie K., Neckarsulm"
+    },
+    {
+      "quote": "Das Kindercoaching hat unserem Sohn geholfen, besser mit seinen Gefühlen umzugehen. Absolut empfehlenswert!",
+      "author": "Familie R., Heilbronn"
+    }
+  ],
+  "angebote": [
+    {
+      "title": "Nachmittagsbetreuung",
+      "icon": "sun",
+      "whatsappText": "Hallo! Ich interessiere mich für die Nachmittagsbetreuung.",
+      "details": [
+        { "label": "Wann", "value": "Montag bis Freitag ab 15:30 Uhr" },
+        { "label": "Für wen", "value": "Kinder von 6 Monaten bis 12 Jahren" },
+        { "label": "Wo", "value": "Bei mir zuhause in Bad Friedrichshall oder bei Ihnen zuhause (im Umkreis von ca. 15 km)" },
+        { "label": "Was", "value": "Spielen, Basteln, Hausaufgabenbegleitung, Bewegung und gemeinsame Zeit" }
+      ]
+    },
+    {
+      "title": "Wochenendbetreuung",
+      "icon": "calendar",
+      "whatsappText": "Hallo! Ich interessiere mich für die Wochenendbetreuung.",
+      "details": [
+        { "label": "Wann", "value": "Samstag & Sonntag, ganztägig (auch abends und über Nacht möglich)" },
+        { "label": "Für wen", "value": "Kinder von 6 Monaten bis 12 Jahren" },
+        { "label": "Wo", "value": "Bei mir zuhause oder bei Ihnen" },
+        { "label": "Ideal für", "value": "Eltern, die am Wochenende arbeiten, Auszeit brauchen oder einen Abend zu zweit genießen möchten" }
+      ]
+    },
+    {
+      "title": "Ferienbetreuung",
+      "icon": "palmtree",
+      "whatsappText": "Hallo! Ich interessiere mich für die Ferienbetreuung.",
+      "details": [
+        { "label": "Wann", "value": "Während der Schulferien (Baden-Württemberg), flexibel buchbar" },
+        { "label": "Für wen", "value": "Kinder von 3 bis 12 Jahren" },
+        { "label": "Wo", "value": "Bei mir zuhause oder bei Ihnen" },
+        { "label": "Was", "value": "Kreative Ferienprojekte, Ausflüge, Bewegung und jede Menge Spaß" }
+      ]
+    },
+    {
+      "title": "Kindercoaching (Gruppenformat)",
+      "icon": "users",
+      "whatsappText": "Hallo! Ich interessiere mich für das Kindercoaching.",
+      "details": [
+        { "label": "Wann", "value": "Nach Vereinbarung" },
+        { "label": "Für wen", "value": "Ab 3 Kindern, Alter 4–12 Jahre" },
+        { "label": "Wo", "value": "Bei mir zuhause in Bad Friedrichshall" },
+        { "label": "Was", "value": "Kinderyoga, Gefühle verstehen, Selbstbewusstsein stärken, Entspannungs- und Fantasiereisen" },
+        { "label": "Themen", "value": "Umgang mit Wut & Frust, Stärkung des Selbstvertrauens, Konzentration & innere Ruhe, Übergänge meistern (Kita → Schule)" }
+      ]
+    },
+    {
+      "title": "Tagesmutter (ab 2027)",
+      "icon": "clock",
+      "badge": "In Planung",
+      "whatsappText": "Hallo! Ich möchte mich auf die Warteliste für die Tagesmutter-Betreuung setzen lassen.",
+      "details": [
+        { "label": "Status", "value": "Ab voraussichtlich 2027 verfügbar" },
+        { "label": "Info", "value": "Ich arbeite aktuell an meiner Zertifizierung als Tagesmutter. Wenn Sie Interesse haben, nehmen Sie mich gerne auf die Warteliste." }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Welche Altersgruppen betreuen Sie?",
+      "answer": "Ich betreue Kinder im Alter von 6 Monaten bis 12 Jahren. Jedes Alter bringt seine eigenen Besonderheiten mit sich, und ich passe meine Betreuung individuell an die Bedürfnisse und den Entwicklungsstand jedes Kindes an."
+    },
+    {
+      "question": "Wo findet die Betreuung statt?",
+      "answer": "Die Betreuung findet entweder bei mir zuhause in Bad Friedrichshall statt oder bei Ihnen zuhause – sofern Sie im Umkreis von ca. 15 km wohnen. So können Sie flexibel entscheiden, was für Ihre Familie am besten passt."
+    },
+    {
+      "question": "Wie sind die Betreuungszeiten?",
+      "answer": "Unter der Woche biete ich Betreuung ab 15:30 Uhr an (Nachmittagsbetreuung). Am Wochenende (Samstag und Sonntag) ist auch eine ganztägige Betreuung möglich – inklusive Abendstunden und Übernachtung, wenn gewünscht."
+    },
+    {
+      "question": "Haben Sie eine pädagogische Ausbildung?",
+      "answer": "Ich bringe über 7 Jahre praktische Erfahrung in der Kinderbetreuung mit und bilde mich regelmäßig in Bereichen wie Kinderyoga, Entwicklungspsychologie und kreativer Pädagogik weiter. Ab 2027 plane ich, als zertifizierte Tagesmutter zu arbeiten."
+    },
+    {
+      "question": "Was kostet die Betreuung?",
+      "answer": "Die Preise bespreche ich gerne individuell mit Ihnen, da jede Familie unterschiedliche Bedürfnisse und Wünsche hat. Schreiben Sie mir gerne per WhatsApp für ein unverbindliches Kennenlerngespräch."
+    },
+    {
+      "question": "Wie kann ich anfragen?",
+      "answer": "Am einfachsten erreichen Sie mich per WhatsApp. Klicken Sie einfach auf einen der WhatsApp-Buttons auf der Website, und ich melde mich so schnell wie möglich bei Ihnen."
+    },
+    {
+      "question": "Was ist Kindercoaching?",
+      "answer": "Beim Kindercoaching arbeiten wir in kleinen Gruppen (ab 3 Kindern) spielerisch an wichtigen Themen wie Selbstbewusstsein, Umgang mit Gefühlen, Konzentration und innerer Ruhe. Methoden wie Kinderyoga, Fantasiereisen und kreative Übungen helfen den Kindern, sich selbst besser kennenzulernen und Herausforderungen zu meistern."
+    },
+    {
+      "question": "Bieten Sie auch Übernachtbetreuung an?",
+      "answer": "Ja, am Wochenende ist auch eine Betreuung über Nacht möglich. Das ist besonders praktisch, wenn Sie als Eltern am Wochenende arbeiten, eine Feier besuchen oder einfach mal einen freien Abend genießen möchten. Ihr Kind ist bei mir bestens aufgehoben."
+    },
+    {
+      "question": "Können Sie auch kurzfristig einspringen?",
+      "answer": "Grundsätzlich ist eine vorherige Anfrage empfohlen, damit ich meine Betreuung gut planen kann. In dringenden Fällen können Sie mich aber gerne direkt per WhatsApp kontaktieren – wenn ich verfügbar bin, helfe ich natürlich gerne aus."
+    },
+    {
+      "question": "Wie läuft ein typischer Nachmittag ab?",
+      "answer": "Ein typischer Nachmittag beginnt mit einer gemeinsamen Begrüßung und Snack-Zeit. Danach folgen je nach Alter und Interessen der Kinder verschiedene Aktivitäten – zum Beispiel Hausaufgabenbegleitung, kreatives Basteln, Bewegungsspiele oder Kinderyoga. Zum Abschluss gibt es eine ruhige Phase mit Vorlesen oder freiem Spiel."
+    }
+  ]
+}

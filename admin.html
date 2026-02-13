@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin | Kleine Helden</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body data-page="admin">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="index.html" class="header__logo" aria-label="Kleine Helden – Startseite">
+          <span class="header__logo-icon"><i data-lucide="star" style="width:1.25rem;height:1.25rem;color:var(--terracotta)"></i></span>
+          <span>Kleine <span class="text-terracotta">Helden</span></span>
+        </a>
+        <div class="header__actions">
+          <a href="index.html" class="btn btn--secondary" style="font-size:0.875rem;">
+            <i data-lucide="eye" style="width:1rem;height:1rem;"></i> Website ansehen
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Login -->
+    <section class="section section--gradient" id="admin-login" style="display:none;">
+      <div class="container" style="max-width:400px;">
+        <div class="section-header">
+          <h1>Admin <span class="text-terracotta">Login</span></h1>
+        </div>
+        <div class="card">
+          <div class="form-group">
+            <label for="admin-password">Passwort</label>
+            <input type="password" class="form-input" id="admin-password" placeholder="Passwort eingeben..." onkeydown="if(event.key==='Enter')doLogin()">
+          </div>
+          <p id="login-error" style="color:var(--terracotta);font-size:0.875rem;margin-bottom:1rem;"></p>
+          <button class="btn btn--primary btn--full" onclick="doLogin()">
+            <i data-lucide="lock" style="width:1rem;height:1rem;"></i> Anmelden
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Admin Panel -->
+    <section class="section" id="admin-panel" style="display:none;">
+      <div class="container" style="max-width:800px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:2rem;">
+          <h1>Inhalte <span class="text-terracotta">bearbeiten</span></h1>
+          <button class="btn btn--secondary" onclick="doLogout()" style="font-size:0.875rem;">
+            <i data-lucide="log-out" style="width:1rem;height:1rem;"></i> Abmelden
+          </button>
+        </div>
+
+        <!-- Save Bar -->
+        <div class="card" style="position:sticky;top:1rem;z-index:100;margin-bottom:2rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap;">
+          <button class="btn btn--primary" onclick="downloadContent()">
+            <i data-lucide="download" style="width:1rem;height:1rem;"></i> Änderungen als JSON herunterladen
+          </button>
+          <p style="font-size:0.8125rem;color:var(--brown-lighter);margin:0;">Laden Sie die heruntergeladene <code>content.json</code> anschließend in den <code>data/</code>-Ordner auf GitHub hoch.</p>
+        </div>
+        <div id="save-status" class="card" style="display:none;background:var(--sage-light);border-left:4px solid var(--sage);margin-bottom:2rem;"></div>
+
+        <!-- Site Settings -->
+        <div class="admin-section">
+          <h2><i data-lucide="settings" style="width:1.25rem;height:1.25rem;"></i> Allgemeine Einstellungen</h2>
+          <div class="card">
+            <div class="form-group">
+              <label for="site-name">Name der Seite</label>
+              <input class="form-input" id="site-name">
+            </div>
+            <div class="form-group">
+              <label for="site-slogan">Slogan</label>
+              <input class="form-input" id="site-slogan">
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+              <div class="form-group">
+                <label for="site-phone">Telefon</label>
+                <input class="form-input" id="site-phone">
+              </div>
+              <div class="form-group">
+                <label for="site-email">E-Mail</label>
+                <input class="form-input" id="site-email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="site-whatsapp">WhatsApp-Nummer (ohne +, z.B. 491621946201)</label>
+              <input class="form-input" id="site-whatsapp">
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+              <div class="form-group">
+                <label for="site-instagram">Instagram-Link</label>
+                <input class="form-input" id="site-instagram" placeholder="https://instagram.com/...">
+              </div>
+              <div class="form-group">
+                <label for="site-instagram-handle">Instagram-Handle</label>
+                <input class="form-input" id="site-instagram-handle" placeholder="@kleine.helden">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="site-location">Standort</label>
+              <input class="form-input" id="site-location">
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero -->
+        <div class="admin-section">
+          <h2><i data-lucide="star" style="width:1.25rem;height:1.25rem;"></i> Startseite – Hero</h2>
+          <div class="card">
+            <div class="form-group">
+              <label for="hero-title">Überschrift</label>
+              <input class="form-input" id="hero-title">
+            </div>
+            <div class="form-group">
+              <label for="hero-subtitle">Untertitel</label>
+              <textarea class="form-textarea" id="hero-subtitle" rows="2"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- About -->
+        <div class="admin-section">
+          <h2><i data-lucide="user" style="width:1.25rem;height:1.25rem;"></i> Über mich</h2>
+          <div class="card">
+            <div class="form-group">
+              <label for="about-name">Vorname</label>
+              <input class="form-input" id="about-name">
+            </div>
+            <div class="form-group">
+              <label for="about-short1">Kurze Vorstellung (Startseite, Absatz 1)</label>
+              <textarea class="form-textarea" id="about-short1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="about-short2">Kurze Vorstellung (Startseite, Absatz 2)</label>
+              <textarea class="form-textarea" id="about-short2" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="about-full">Ausführliche Vorstellung (Über-mich-Seite, Absätze mit Leerzeile trennen)</label>
+              <textarea class="form-textarea" id="about-full" rows="8"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- Schwerpunkte -->
+        <div class="admin-section">
+          <h2><i data-lucide="heart" style="width:1.25rem;height:1.25rem;"></i> Pädagogische Schwerpunkte</h2>
+          <div id="schwerpunkte-list"></div>
+          <button class="btn btn--secondary" onclick="addSchwerpunkt()" style="margin-top:1rem;">
+            <i data-lucide="plus" style="width:1rem;height:1rem;"></i> Schwerpunkt hinzufügen
+          </button>
+        </div>
+
+        <!-- Features -->
+        <div class="admin-section">
+          <h2><i data-lucide="sparkles" style="width:1.25rem;height:1.25rem;"></i> Startseite – Vorteile</h2>
+          <div id="features-list"></div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="admin-section">
+          <h2><i data-lucide="quote" style="width:1.25rem;height:1.25rem;"></i> Testimonials</h2>
+          <div id="testimonials-list"></div>
+          <button class="btn btn--secondary" onclick="addTestimonial()" style="margin-top:1rem;">
+            <i data-lucide="plus" style="width:1rem;height:1rem;"></i> Testimonial hinzufügen
+          </button>
+        </div>
+
+        <!-- Angebote -->
+        <div class="admin-section">
+          <h2><i data-lucide="calendar-days" style="width:1.25rem;height:1.25rem;"></i> Angebote</h2>
+          <div id="angebote-list"></div>
+          <button class="btn btn--secondary" onclick="addAngebot()" style="margin-top:1rem;">
+            <i data-lucide="plus" style="width:1rem;height:1rem;"></i> Angebot hinzufügen
+          </button>
+        </div>
+
+        <!-- FAQ -->
+        <div class="admin-section">
+          <h2><i data-lucide="help-circle" style="width:1.25rem;height:1.25rem;"></i> FAQ</h2>
+          <div id="faq-list"></div>
+          <button class="btn btn--secondary" onclick="addFAQ()" style="margin-top:1rem;">
+            <i data-lucide="plus" style="width:1rem;height:1rem;"></i> FAQ hinzufügen
+          </button>
+        </div>
+
+        <!-- Bottom Save -->
+        <div style="margin-top:2rem;padding:2rem 0;border-top:1px solid var(--beige-dark);text-align:center;">
+          <button class="btn btn--primary btn--lg" onclick="downloadContent()">
+            <i data-lucide="download" style="width:1.25rem;height:1.25rem;"></i> Änderungen als JSON herunterladen
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/admin.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
