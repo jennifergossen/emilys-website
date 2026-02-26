@@ -11,10 +11,10 @@
   --sage-light: #C4D4BE;
   --sage-dark: #8AA882;
   --sage-hover: #97B38E;
-  --terracotta: #E8A87C;
-  --terracotta-light: #F0C4A4;
-  --terracotta-dark: #D4905E;
-  --terracotta-hover: #E09A6A;
+  --terracotta: #6B8B5E;
+  --terracotta-light: #8BA880;
+  --terracotta-dark: #547248;
+  --terracotta-hover: #5E7E52;
   --brown: #3E2F23;
   --brown-light: #6B5B4E;
   --brown-lighter: #8B7B6E;
@@ -245,7 +245,7 @@ h3 { font-size: clamp(1.125rem, 2vw, 1.5rem); }
 .header__logo-icon {
   width: 2.5rem;
   height: 2.5rem;
-  background: rgba(232, 168, 124, 0.1);
+  background: rgba(107, 139, 94, 0.1);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -254,7 +254,7 @@ h3 { font-size: clamp(1.125rem, 2vw, 1.5rem); }
 }
 
 .header__logo:hover .header__logo-icon {
-  background: rgba(232, 168, 124, 0.2);
+  background: rgba(107, 139, 94, 0.2);
 }
 
 .header__nav {
