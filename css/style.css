@@ -517,10 +517,11 @@ h3 { font-size: clamp(1.125rem, 2vw, 1.5rem); }
 .about-teaser__image {
   background: rgba(168, 191, 160, 0.1);
   border-radius: var(--radius-lg);
-  aspect-ratio: 4/3;
+  aspect-ratio: 2/3;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .about-teaser__image img {
