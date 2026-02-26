@@ -5,8 +5,8 @@
     "phone": "[Telefonnummer]",
     "email": "[E-Mail-Adresse]",
     "whatsapp": "491621946201",
-    "instagram": "https://instagram.com",
-    "instagramHandle": "@kleine.helden",
+    "instagram": "https://www.instagram.com/kinderbetreuungkleinehelden/",
+    "instagramHandle": "@kinderbetreuungkleinehelden",
     "location": "Bad Friedrichshall, Baden-Württemberg"
   },
   "hero": {
@@ -31,14 +31,14 @@
     }
   ],
   "about": {
-    "name": "[Name]",
+    "name": "Emily",
     "shortIntro": "Mit über 7 Jahren Erfahrung in der Kinderbetreuung ist es meine Leidenschaft, Kinder auf ihrem Weg zu begleiten. In einer liebevollen, geborgenen Atmosphäre können kleine Helden ihre Stärken entdecken, kreativ werden und einfach Kind sein.",
     "shortIntro2": "Ob Kinderyoga, kreative Bastelprojekte oder einfühlsames Coaching – bei mir steht jedes Kind mit seinen individuellen Bedürfnissen im Mittelpunkt.",
     "fullIntro": [
       "Seit über 7 Jahren begleite ich Kinder mit Herz und Leidenschaft auf ihrem ganz persönlichen Weg. Die Arbeit mit Kindern ist für mich nicht nur ein Beruf – es ist meine Berufung.",
       "Ich betreue Kinder im Alter von 6 Monaten bis 12 Jahren, bei mir zuhause in Bad Friedrichshall oder direkt bei Ihnen zuhause im Umkreis von ca. 15 km. Dabei liegt mir besonders am Herzen, dass sich jedes Kind sicher, gesehen und wertgeschätzt fühlt.",
       "Mein Ansatz ist ganzheitlich: Ich fördere Bewegung und Kreativität genauso wie emotionale Stärke und innere Ruhe. Durch Kinderyoga, kreative Projekte und einfühlsame Begleitung schaffe ich einen Raum, in dem Kinder wachsen und ihre Persönlichkeit entfalten können.",
-      "<strong>Ab 2027</strong> plane ich, als zertifizierte Tagesmutter zu arbeiten. Wenn Sie Interesse haben, nehmen Sie mich gerne schon jetzt auf die Warteliste."
+      "Ab 2027 plane ich, als zertifizierte Tagesmutter zu arbeiten. Wenn Sie Interesse haben, kontaktieren Sie mich gerne schon heute."
     ],
     "schwerpunkte": [
       {
@@ -159,7 +159,7 @@
     },
     {
       "question": "Haben Sie eine pädagogische Ausbildung?",
-      "answer": "Ich bringe über 7 Jahre praktische Erfahrung in der Kinderbetreuung mit und bilde mich regelmäßig in Bereichen wie Kinderyoga, Entwicklungspsychologie und kreativer Pädagogik weiter. Ab 2027 plane ich, als zertifizierte Tagesmutter zu arbeiten."
+      "answer": "Ich bringe über 7 Jahre praktische Erfahrung in der Kinderbetreuung mit. Ab 2027 plane ich, als zertifizierte Tagesmutter zu arbeiten."
     },
     {
       "question": "Was kostet die Betreuung?",
