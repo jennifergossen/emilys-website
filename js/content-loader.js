@@ -32,7 +32,7 @@ function getIconSvg(name) {
     'heart': 'heart',
     'sun': 'sun',
     'calendar': 'calendar-days',
-    'palmtree': 'palm-tree',
+    'palmtree': 'tree-palm',
     'users': 'users',
     'clock': 'clock',
     'cloud': 'cloud',
@@ -155,7 +155,7 @@ function renderAngebot() {
   if (!grid || !c.angebote) return;
 
   grid.innerHTML = c.angebote.map(a => `
-    <div class="card">
+    <div class="card" style="display:flex;flex-direction:column;height:100%;">
       ${a.badge ? `<span class="card__badge">${a.badge}</span>` : ''}
       <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;">
         <div class="card__icon" style="margin-bottom:0;">
@@ -163,7 +163,7 @@ function renderAngebot() {
         </div>
         <h3 class="mb-0">${a.title}</h3>
       </div>
-      <div style="margin-bottom:1.5rem;">
+      <div style="margin-bottom:1.5rem;flex:1;">
         ${a.details.map(d => `
           <div class="card__detail">
             <strong>${d.label}:</strong> <span>${d.value}</span>
@@ -173,7 +173,7 @@ function renderAngebot() {
       <div class="card__actions">
         <a href="${getWhatsAppLink(a.whatsappText)}" target="_blank" rel="noopener" class="btn btn--whatsapp btn--full">
           <i data-lucide="message-circle"></i>
-          ${a.badge ? 'Per WhatsApp anfragen' : 'Per WhatsApp anfragen'}
+          Per WhatsApp anfragen
         </a>
       </div>
     </div>

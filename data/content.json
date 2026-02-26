@@ -11,7 +11,7 @@
   },
   "hero": {
     "title": "Wo kleine Helden <span class=\"text-terracotta\">groß werden</span>",
-    "subtitle": "Liebevolle Kinderbetreuung in Bad Friedrichshall und Umgebung – für Kinder von 6 Monaten bis 12 Jahren"
+    "subtitle": "Liebevolle Kinderbetreuung in Bad Friedrichshall und Umgebung – für Kinder von 3 Monaten bis 12 Jahren"
   },
   "features": [
     {
@@ -36,7 +36,7 @@
     "shortIntro2": "Ob Kinderyoga, kreative Bastelprojekte oder einfühlsames Coaching – bei mir steht jedes Kind mit seinen individuellen Bedürfnissen im Mittelpunkt.",
     "fullIntro": [
       "Seit über 7 Jahren begleite ich Kinder mit Herz und Leidenschaft auf ihrem ganz persönlichen Weg. Die Arbeit mit Kindern ist für mich nicht nur ein Beruf – es ist meine Berufung.",
-      "Ich betreue Kinder im Alter von 6 Monaten bis 12 Jahren, bei mir zuhause in Bad Friedrichshall oder direkt bei Ihnen zuhause im Umkreis von ca. 15 km. Dabei liegt mir besonders am Herzen, dass sich jedes Kind sicher, gesehen und wertgeschätzt fühlt.",
+      "Ich betreue Kinder im Alter von 3 Monaten bis 12 Jahren, bei mir zuhause in Bad Friedrichshall oder direkt bei Ihnen zuhause im Umkreis von ca. 15 km. Dabei liegt mir besonders am Herzen, dass sich jedes Kind sicher, gesehen und wertgeschätzt fühlt.",
       "Mein Ansatz ist ganzheitlich: Ich fördere Bewegung und Kreativität genauso wie emotionale Stärke und innere Ruhe. Durch Kinderyoga, kreative Projekte und einfühlsame Begleitung schaffe ich einen Raum, in dem Kinder wachsen und ihre Persönlichkeit entfalten können.",
       "Ab 2027 plane ich, als zertifizierte Tagesmutter zu arbeiten. Wenn Sie Interesse haben, kontaktieren Sie mich gerne schon heute."
     ],
@@ -94,7 +94,7 @@
       "whatsappText": "Hallo! Ich interessiere mich für die Nachmittagsbetreuung.",
       "details": [
         { "label": "Wann", "value": "Montag bis Freitag ab 15:30 Uhr" },
-        { "label": "Für wen", "value": "Kinder von 6 Monaten bis 12 Jahren" },
+        { "label": "Für wen", "value": "Kinder von 3 Monaten bis 12 Jahren" },
         { "label": "Wo", "value": "Bei mir zuhause in Bad Friedrichshall oder bei Ihnen zuhause (im Umkreis von ca. 15 km)" },
         { "label": "Was", "value": "Spielen, Basteln, Hausaufgabenbegleitung, Bewegung und gemeinsame Zeit" }
       ]
@@ -105,7 +105,7 @@
       "whatsappText": "Hallo! Ich interessiere mich für die Wochenendbetreuung.",
       "details": [
         { "label": "Wann", "value": "Samstag & Sonntag, ganztägig (auch abends und über Nacht möglich)" },
-        { "label": "Für wen", "value": "Kinder von 6 Monaten bis 12 Jahren" },
+        { "label": "Für wen", "value": "Kinder von 3 Monaten bis 12 Jahren" },
         { "label": "Wo", "value": "Bei mir zuhause oder bei Ihnen" },
         { "label": "Ideal für", "value": "Eltern, die am Wochenende arbeiten, Auszeit brauchen oder einen Abend zu zweit genießen möchten" }
       ]
@@ -117,7 +117,7 @@
       "details": [
         { "label": "Wann", "value": "Während der Schulferien (Baden-Württemberg), flexibel buchbar" },
         { "label": "Für wen", "value": "Kinder von 3 bis 12 Jahren" },
-        { "label": "Wo", "value": "Bei mir zuhause oder bei Ihnen" },
+        { "label": "Wo", "value": "Bei mir zuhause in Bad Friedrichshall (auf Anfrage auch bei Ihnen)" },
         { "label": "Was", "value": "Kreative Ferienprojekte, Ausflüge, Bewegung und jede Menge Spaß" }
       ]
     },
@@ -147,7 +147,7 @@
   "faq": [
     {
       "question": "Welche Altersgruppen betreuen Sie?",
-      "answer": "Ich betreue Kinder im Alter von 6 Monaten bis 12 Jahren. Jedes Alter bringt seine eigenen Besonderheiten mit sich, und ich passe meine Betreuung individuell an die Bedürfnisse und den Entwicklungsstand jedes Kindes an."
+      "answer": "Ich betreue Kinder im Alter von 3 Monaten bis 12 Jahren. Jedes Alter bringt seine eigenen Besonderheiten mit sich, und ich passe meine Betreuung individuell an die Bedürfnisse und den Entwicklungsstand jedes Kindes an."
     },
     {
       "question": "Wo findet die Betreuung statt?",
